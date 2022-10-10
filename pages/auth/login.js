@@ -23,9 +23,9 @@ export default function login() {
               <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0">
                 
                 <div className="flex-auto px-4 lg:px-10 py-10 pt-0">
-                  <div className="text-blueGray-400 text-center mb-3 font-bold">
+                  {/* <div className="text-blueGray-400 text-center mb-3 font-bold">
                     <small>Or sign in with credentials</small>
-                  </div>
+                  </div> */}
                   <form>
                     <div className="relative w-full mb-3">
                       <label
@@ -71,7 +71,7 @@ export default function login() {
                 </div>
               </div>
               <div className="flex flex-wrap mt-6 relative">
-                <div className="w-1/2">
+                {/* <div className="w-1/2">
                   <a
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
@@ -79,10 +79,10 @@ export default function login() {
                   >
                     <small>Forgot password?</small>
                   </a>
-                </div>
+                </div> */}
                 <div className="w-1/2 text-right">
                   <Link href="/auth/signup">
-                    <a href="#pablo" className="text-blueGray-200">
+                    <a href="/auth/signup" className="text-blueGray-200">
                       <small>Create new account</small>
                     </a>
                   </Link>
