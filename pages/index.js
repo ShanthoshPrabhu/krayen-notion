@@ -1,13 +1,11 @@
 
-import styles from '../styles/Home.module.css'
-import Link from "next/link";
 
-export default function Home() {
+import React from 'react'
+
+function index() {
   return (
-    <div >
-      hi
-    </div>
+    <div></div>
   )
 }
 
-
+export default index
